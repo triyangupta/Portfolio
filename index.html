@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <!-- navbar section -->
+
+    <div class="navbar">
+        <div class="name">Portfolio</div>
+        <div class="navbar-text">
+            <a href="#main">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="">Resume</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <div class="about-link"><a href="#main">About</a></div>
+                <div class="about-link"><a href="#project">Projects</a></div>
+                <div class="about-link"> <a href="#skills">Skills</a></div>
+                <div class="about-link"><a href="#resume">Resume</a></div>
+                <div class="about-link"><a href="#contact">Contact</a></div>
+
+            </div>
+        </div>
+
+        <button class="btn-reso"><i class="fa-solid fa-bars fa-2x"></i></button>
+    </div>
+
+
+
+        <!-- About section -->
+
+    <div class="main-container" id="main">
+        <div class="img-container">
+            <img src="./image/triyan.jpg" alt="">
+        </div>
+        <div class="about-container">
+            <h1>Triyan Gupta</h1>
+
+            <div class="typewriter">Shivalik'27 
+                <span class="typewriter-text"> 
+                    Computer Science and Engineering
+                    Student
+                </span>
+            </div>
+
+            <p>
+                Hi! My name is Triyan Gupta 2<sup>nd</sup> Year Undergraduate Student. Department of Computer Science and
+                Engineering, Shivalik College of Engineering, I'am From Varanasi ,Uttar Pradesh.<br>
+                I enjoy programming and love building software solutions for challenging real-world problems. I wish to
+                do the same in my professional life. My interests include Software Development, Data Science and Machine
+                Learning. I also have experience <strong>Content Writing</strong>.<br>
+                When I am not racking my brain at problems, you can find me playing video-game or relaxing to my
+                favourite music.
+            </p>
+
+            <a href="#" class="github"><i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="" class="github"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        </div>
+    </div>
+
+
+
+        <!-- skills section -->
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-flex">
+            <div class="skill-item">C</div>
+            <div class="skill-item">C++</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">React</div>
+            <div class="skill-item">Data Structures</div>
+            <div class="skill-item">Data Science</div>
+            <div class="skill-item">Java</div>
+
+        </div>
+    </section>
+
+
+
+        <!-- project section -->
+
+    <section id="project">
+        <h2 class="title">Projects</h2>
+        <div class="project-container">
+
+            <div class="project-details">
+                <a class="github" href="https://triyangupta.github.io/Todo-List/"><i
+                        class="fa-brands fa-github fa-2x"></i></a>
+                <h1>Todo List</h1>
+                <p>A modern Todo List with dark mode, smooth animations, and task completion features—built using HTML,
+                    CSS, and JavaScript. 🚀✅</p>
+            </div>
+
+            <div class="project-details">
+                <a class="github" href="https://triyangupta.github.io/Stop-Watch/"><i
+                        class="fa-brands fa-github fa-2x"></i></a>
+                <h1>Stop-Watch</h1>
+                <p>A simple stopwatch built with HTML, CSS, and JavaScript. It displays time in hours, minutes, and
+                    seconds with Start, Pause, and Reset functionality.</p>
+            </div>
+
+            <div class="project-details">
+                <a class="github" href="https://triyangupta.github.io/Calculator/"><i
+                        class="fa-brands fa-github fa-2x"></i></a>
+                <h1>Calculator</h1>
+                <p>🧮 Calculator Web App A simple, clean, and functional calculator built with HTML, CSS, and
+                    JavaScript. This web-based calculator supports basic arithmetic operations, percentage calculation,
+                    decimal handling, and backspace functionality — all wrapped in a responsive, user-friendly design.
+                </p>
+            </div>
+
+            <div class="project-details"></div>
+            <div class="project-details"></div>
+        </div>
+
+    </section>
+
+
+       <!-- contact section -->
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <h3 class="email">Email: guptatriyan7@gmail.com</h3>
+        <h3 class="email">Phone: 8005298966</h3>
+        <div class="detail-container">
+            <div class="my-detail">
+                <input type="text" placeholder="Your Name * ">
+                <input type="text" placeholder="Your Email * ">
+                <input type="text" placeholder="Your Phone * ">
+
+            </div>
+
+            <div class="comment">
+                <textarea class="Message" placeholder="Your message"></textarea>
+            </div>
+        </div>
+        <button class="sendMessage">Send Message</button>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
